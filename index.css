@@ -4,7 +4,11 @@ body {
 
 div {
   background-color: white;
-  padding:20px
+  padding:20px;
+}
+
+footer {
+  background-color: white;
 }
 
 table, th, td {
@@ -26,6 +30,11 @@ h2 {
 
 
 ol {
+  font-family: courier new;
+  font-size: 23px;
+}
+
+ul {
   font-family: courier new;
   font-size: 23px;
 }
