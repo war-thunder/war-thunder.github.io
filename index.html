@@ -150,8 +150,20 @@
 
       <script>
         function complainbin() {
-          complaint = prompt("What is your complaint?")
-          alert("Jokes on you, that button does nothing!")
+          var complaint = prompt("What is your complaint?")
+
+          if (toLowerCase(complaint) == "i am not mentioned" || "i'm not mentioned") {
+            alert("I told you - you can't change the mentions now, it's too late! If you are so desperate, just send an email to the address!")
+          }
+          else if (toLowerCase(complaint) == "you owe me 20 pounds" || "you owe me twenty pounds") {
+            alert("...since when did I owe you 20 pounds. Or are you broke?")
+          }
+          else if (toLowerCase(complaint) == "website is bad" || "website is garbage") {
+            alert("Honestly, valid.")
+          }
+          else {
+            alert("Jokes on you, that button does nothing!")
+          }
         }
       </script>
       
